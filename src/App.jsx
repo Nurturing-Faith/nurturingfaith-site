@@ -1,8 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { BookOpen, Heart, Sparkles, Mail, Calendar, School, CheckCircle, ArrowRight, Instagram, Facebook, Youtube, Globe, ShoppingBag, BookText } from "lucide-react";
+import { Heart, Sparkles, Mail, Calendar, School, CheckCircle, ArrowRight, Instagram, Facebook, Youtube, Globe, ShoppingBag, BookText } from "lucide-react";
 
-export default function App() {
+export default function AlTarbiyyahAlImaniyyahSite() {
   return (
     <div className="min-h-screen bg-emerald-50 text-emerald-950">
       {/* Nav */}
@@ -145,7 +145,7 @@ export default function App() {
 
       {/* Values */}
       <section id="values" className="py-16 md:py-20">
-        <div className="max-w-6xl mx_auto px-4">
+        <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-3xl font-bold">Our Approach & Values</h2>
           <div className="grid md:grid-cols-3 gap-6 mt-8">
             {[
